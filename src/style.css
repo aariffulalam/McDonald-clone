@@ -1,3 +1,49 @@
-.left{
-    background-color: rgb(255, 196, 0);
+
+.section1{
+    position: relative;
+    background-color: rgb(252 185 0);
+    height: 700px;
+    margin: 0;
+    padding: 0;
+}
+.section1_left{
+    position: absolute;
+    width: 534px;
+    height: 700px;
+    /* padding-left: 10%; */
+    display: grid;
+    place-items: center;
+    /* background-color: red; */
+}
+.section1_right img{
+    /* position: absolute; */
+    width: 800px;
+    height: 700px;
+    margin-left: 40%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.double_line_font{
+    font-family: 'Tourney', cursive;
+}
+
+/* .section1_left_buttons{
+    background-color: blue;
+    display: grid;
+    place-items: center;
+} */
+.button1{
+    /* left: 0; */
+    /* margin-left: 0; */
+    margin-right: 10px;
+}
+.button2{
+    /* right: 0; */
+    /* margin-right: 0; */
+    margin-left: 10px;
+}
+.section1_font{
+    font-size: 25px;
+    color: red;
 }
